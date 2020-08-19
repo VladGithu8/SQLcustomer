@@ -1,0 +1,6 @@
+﻿CREATE TABLE customer (
+   customer_id INT,
+   order INT,
+   product VARCHAR(30),
+   PRIMARY KEY (customer_id)
+);
