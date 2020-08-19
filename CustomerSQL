@@ -1,0 +1,32 @@
+CREATE TABLE Customer(
+   Customer_id INT AUTO_INCREMENT,
+   PRIMARY KEY(Customer_id),
+   Name VARCHAR(20),
+   Surname VARCHAR(20),
+   Email VARCHAR(40),
+   Telephone VARCHAR(16),
+   Balance_c FLOAT(6,2)
+);
+
+CREATE TABLE Products(
+   Product_id INT AUTO_INCREMENT,
+   PRIMARY KEY(Product_id),
+   Name_Product VARCHAR(100),
+   Price_Product FLOAT(6,2),
+   Quantity_product INT
+);
+
+
+   
+CREATE TABLE Orders(
+   Orders_id INT AUTO_INCREMENT,
+   PRIMARY KEY(Orders_id),
+   Customer_id INT,
+   Product_id INT,
+   Date_orders DATE,
+   Coast FLOAT(6,2),
+   FOREIGN KEY(Product_id) REFERENCES Products(Product_id),
+   FOREIGN KEY(Customer_id) REFERENCES Customer(Customer_id)
+);
+   
+
