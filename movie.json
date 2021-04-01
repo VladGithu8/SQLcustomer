@@ -1,0 +1,25 @@
+[
+  {
+    "id": "1",
+    "image": "https://upload.wikimedia.org/wikipedia/ru/d/dd/Spider_Man_PS4_cover.jpg",
+    "title": "Spyder-Man"
+  },
+
+  {
+    "id": "2",
+    "image": "https://www.mirf.ru/wp-content/uploads/2016/03/tAoaccJ1.jpg",
+    "title": "Super Man"
+  },
+
+  {
+    "id": "3",
+    "image": "https://upload.wikimedia.org/wikipedia/ru/b/b5/21_Poster.jpg",
+    "title": "21"
+  },
+
+  {
+    "id": "4",
+    "image": "https://image.api.playstation.com/vulcan/img/rnd/202010/0109/3EnEIQ3wmOE0haH2ks8CGpy1.png",
+    "title": "Jurassic park"
+  }
+]
